@@ -6,11 +6,12 @@ This project provides a Streamlit-powered interface to search for images from Fl
 
 1. [Project Structure](#project-structure)
 2. [Key Optimizations](#key-optimizations)
-3. [Setup and Installation](#setup-and-installation)
-4. [Usage](#usage)
-5. [Logging](#logging)
-6. [Contribution](#contribution)
-7. [License](#license)
+3. [Example Files](#example-files)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Logging](#logging)
+7. [Contribution](#contribution)
+8. [License](#license)
 
 ## Project Structure
 
@@ -42,6 +43,12 @@ Dealing with vast amounts of image data poses challenges in retrieval and indexi
 - Provides a mechanism to handle timeouts and large data fetches without overloading the system.
 
 Using the Scroll API, we can efficiently manage and process vast datasets, ensuring a smooth user experience.
+
+## Example Files
+
+- `photo_flicker_conf_73.conf`: An example configuration file, detailing parameters and settings for the application.
+- `photo_metadata_ex1.csv`: Sample CSV file containing metadata for images. Demonstrates the expected format for importing images into the system.
+- `mapping_flickr_photos.json`: Mapping file used to define the schema of the Elasticsearch index, ensuring data is stored and retrieved efficiently.
 
 ## Setup and Installation
 
