@@ -43,11 +43,6 @@ Dealing with vast amounts of image data poses challenges in retrieval and indexi
 
 Using the Scroll API, we can efficiently manage and process vast datasets, ensuring a smooth user experience.
 
-Certainly! Here's a template for a README file that you can use for your GitHub repo:
-
-Certainly! Here's a template for a README file that you can use for your GitHub repo:
-
-
 ## Setup and Installation
 
 1. Ensure you have Python 3.x installed.
