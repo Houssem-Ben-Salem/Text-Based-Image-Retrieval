@@ -53,8 +53,7 @@ Certainly! Here's a template for a README file that you can use for your GitHub 
 1. Ensure you have Python 3.x installed.
 2. Clone this repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Houssem-Ben-Salem/Text-Based-Image-Retrieval.git
     ```
 
 3. Install the required packages:
