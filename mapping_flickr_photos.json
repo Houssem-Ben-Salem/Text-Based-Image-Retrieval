@@ -1,0 +1,23 @@
+{ "mappings": {
+        "properties": {
+          "id": {"type": "text","index" : true},
+          "userid": {"type": "text","index" : true},
+          "title": {"type": "text","index" : true},
+          "tags": {"type": "text","index" : true},
+          "latitude": {"type": "double"},
+          "longitude": {"type": "double"},
+          "views": {"type": "integer"},
+          "date_taken": {"type": "date","format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd"},
+          "date_uploaded": {"type": "date","format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd"},
+          "accuracy": {"type": "short"},
+         "flickr_secret": {"type": "keyword","index" : true},
+         "flickr_server": {"type": "keyword","index" : true},
+         "flickr_farm": {"type": "keyword","index" : true},
+         "x": {"type": "keyword","index" : true},
+         "y": {"type": "keyword","index" : true},
+          "z": {"type": "keyword","index" : true},
+		  "location" : {"type" : "geo_point"}
+        }
+    }
+}
+
